@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="loader.css">
+    <link rel="stylesheet" href="word.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Itim&family=Sacramento&family=Yellowtail&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> - - - - - </title>
+</head>
+<body>
+    <div class="loader flex">
+        <div aria-label="Orange and tan hamster running in a metal wheel" role="img" class="wheel-and-hamster">
+            <div class="wheel"></div>
+            <div class="hamster">
+                <div class="hamster__body">
+                    <div class="hamster__head">
+                        <div class="hamster__ear"></div>
+                        <div class="hamster__eye"></div>
+                        <div class="hamster__nose"></div>
+                    </div>
+                    <div class="hamster__limb hamster__limb--fr"></div>
+                    <div class="hamster__limb hamster__limb--fl"></div>
+                    <div class="hamster__limb hamster__limb--br"></div>
+                    <div class="hamster__limb hamster__limb--bl"></div>
+                    <div class="hamster__tail"></div>
+                </div>
+            </div>
+            <div class="spoke"></div>
+        </div>  
+        <h1>Loading...</h1>
+    </div>
+    <div class="main">
+        <div class="bgeffect">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div id="page1" class="page1 page">
+            <img class="prolog" src="asset/prolog.png" alt="">
+            <button onclick="topage2()" class="next">oke lanjut</button>
+        </div>
+        <div id="page2" class="page page2 flex  d-none">
+            <a href="#ke2" class="downer flex"><ion-icon name="chevron-down-outline"></ion-icon></a>
+            <section  id="ke1"  class="a1 box flex">
+                <div class=" a1 box flex">
+                    <div class="img flex">
+                        <img   class="img1 delayhbd" src="asset/AYU1.png" alt="">
+                        <img   class="img2 nodelayhbd" src="asset/AYU2.png" alt="">
+                        <img   class="img3 nodelayhbd" src="asset/ayu3.png" alt="">
+                        <img   class="img4 nodelayhbd" src="asset/ayu4.png" alt="">
+                    </div>
+                    <div class="capt flex delayhbd"  >
+                        <h2>happy birthday</h2>
+                        <h1>Ayu Hanna</h1>
+                    </div>
+                </div>
+            </section>
+            <section id="ke2" class="a2 box flex">
+                <div class="a2 d-none  box flex">
+                    <div class="box_img2 flex ">
+                        <div class="img2_box flex">
+                            <img src="asset/ayu5.png" class="ayu1" alt="">
+                            <img src="asset/ayu6.png" class="ayu2" alt="">
+                            <img src="asset/ayu7.png" class="ayu3" alt="">
+                        </div>
+                    </div>
+                    
+                    <div class="motivasi">
+                        <p>"berharap setinggi langit, seluas samudra dan sedalam lautan maka Allah akan mengabulkan nya"</p>
+                    </div>
+                </div>
+
+            </section>
+            <section id="ke3" class="a3 box flex">
+                <div class="a3 d-none box flex">
+                    <div class="card flex">
+                        <div class="word">
+                            <p>Selamat ulang tahun Ayuu... <br> 
+                            Semoga seterusnya kamu diberi kesehatan & kebahagiaan, yang sudah berlalu biarlah berlalu, sekarang fokus untuk masa depan kamu dan jangan hiraukan omongan orang yang benci kamu, namun lihatlah ke orang yang dukung dan sayang sama kamu..
+                            </p>
+                        </div>
+                        <ion-icon class="c c1" name="heart"></ion-icon>
+                        <ion-icon class="c c2" name="heart"></ion-icon>
+                        <ion-icon class="c c3" name="heart"></ion-icon>
+                        <img class="for-you" src="asset/foryou.png" alt="">
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

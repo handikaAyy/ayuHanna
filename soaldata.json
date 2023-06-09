@@ -1,0 +1,126 @@
+{
+    "soal_story_1":[
+        {
+            "urutan": 1,
+            "soal": "karbon Monoksida",
+            "jawab": "CO"
+        },
+        {
+            "urutan": 2,
+            "soal":"Karbon Dioksida",
+            "jawab":"CO2"
+        },
+        {
+            "urutan": 3,
+            "soal": "Nitrogen Trioksida",
+            "jawab": "NO3"
+        },
+        {
+            "urutan": 4,
+            "soal":"Dinitrogen Pentaoksida",
+            "jawab":"N2O5"
+        },
+        {
+            "urutan": 5,
+            "soal":"Fosfor Disulfida",
+            "jawab":"PS2"
+        },
+        {
+            "urutan": 6,
+            "soal":"Karbon Tetraklorida",
+            "jawab": "CCl4"
+        },
+        {
+            "urutan": 7,
+            "soal": "Fosfor Pentaklorida",
+            "jawab": "Cl5P"
+        },
+        {
+            "urutan": 8,
+            "soal": "Karbon Tetrafluorida",
+            "jawab": "CF4"
+        }
+        
+    
+    ],
+    "soal_story_2":[
+        {
+            "urutan": 1,
+            "soal":"Natrium klorida",
+            "jawab":"NaCl"
+        },
+        {
+            "urutan": 2,
+            "soal":"Kalium Klorida",
+            "jawab":"KCI"
+        },
+        {
+            "urutan": 3,
+            "soal":"Kalsium Klorida",
+            "jawab":"CaCl2"
+        },
+        {
+            "urutan": 4,
+            "soal":"Magnesium Bromida",
+            "jawab":"MgBr2"
+        },
+        {
+            "urutan": 5,
+            "soal":"Magnesium Klorida",
+            "jawab":"MgCl2"
+        },
+        {
+            "urutan": 6,
+            "soal":"Barium Klorida",
+            "jawab":"BaCl2"
+        },
+        {
+            "urutan": 7,
+            "soal":"Kalium Sulfida",
+            "jawab":"K2S"
+        },
+        {
+            "urutan": 8,
+            "soal":"Magnesium Sulfida",
+            "jawab":"MgS"
+        },
+        {
+            "urutan": 9,
+            "soal": "Kalium Flourida",
+            "jawab": "KF"
+        },
+        {
+            "urutan": 10,
+            "soal": "Natrium Bromida",
+            "jawab": "NaBr"
+        }
+       
+    ],
+    "soal_story_3-1":[
+        {
+            "soal1":"CaCl2",
+            "jawab1":"Kalsium Klorida",
+            "soal2":"CCl4",
+            "jawab2":"Karbon Tetraklorida",
+            "soal3":"CO",
+            "jawab3":"Karbon Monoksida",
+            "soal4":"KCl",
+            "jawab4":"Kalium Klorida"
+        }
+
+    ],
+    "soal_story_3-2":[
+        {
+            "soal1":"Na2O",
+            "jawab1":"Natrium Oksida",
+            "soal2":"No2",
+            "jawab2":"Nitrogen Dioksida",
+            "soal3":"N2O5",
+            "jawab3":"Dinitrogen Pentaoksida",
+            "soal4":"BaBr2",
+            "jawab4":"Barium Bromida"
+        }
+
+    ]
+
+}

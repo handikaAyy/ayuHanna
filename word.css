@@ -1,0 +1,90 @@
+.card{
+    width: 400 px;
+    min-height: 300px;
+    max-width: 80vw;
+    position: relative;
+    background-color: aquamarine;
+    padding: 70px 40px 70px 40px;
+    text-align: justify;
+    background-color: rgba(255, 191, 191, 0.8);
+    border: 2px solid #ffffff;
+    font-family: 'Itim', cursive;
+    animation: show 1s ease-in    ;
+}
+
+.c{
+    position: absolute;
+    font-size: 70px;
+    color: rgba(255, 74, 74, 0.5);
+    backdrop-filter: blur(10px);
+}
+.c1{
+    left: -40px;
+    top: 79%;
+    animation: updown 5s ease-in-out infinite;
+}
+
+.c2{
+    right: -40px;
+    top: 10%;
+    animation: updown 3s ease-in-out infinite;
+
+}
+
+@keyframes updown {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(60px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.c3{
+    right: -50px;
+    z-index: -1;
+    bottom: -70px;
+    font-size: 150px;
+    animation: degdeg 5s  2s   infinite;
+
+}
+@keyframes degdeg{
+    0%{
+        scale: 1;
+    }
+    10%{
+        scale: 1.1;
+    }
+    20%{
+        scale: 1;
+    }
+   
+    100%{
+        scale: 1;
+
+    }
+}
+.for-you{
+    position: absolute;
+    width: 150px;
+    max-width: 35vw;
+    top: -20px;
+    left: -20px;
+}
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: translateY(90px);
+    }
+    80%{
+        transform: translateY(0px);
+    }85%{
+        opacity: 0.3;
+    }
+    90%{
+        opacity: 
+        1;
+    }
+}
